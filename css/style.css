@@ -55,7 +55,7 @@ section {
 }
 h1{
     font-size: 2.5rem;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik+Mono+Uno', cursive;
     color: #f6f6f6;
 }
 .hero-principal h2{
@@ -73,7 +73,7 @@ h1{
 .seccion-titulo{
     font-size: 2rem;
     padding: 15px 0;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik+Mono+Uno', cursive;
 }
 .seccion-texto{
     font-size: 1.2rem;
@@ -148,6 +148,14 @@ h1{
 }
 .sobremi button:hover i{
     color: #2062A4;
+}
+.sobremi {
+    padding: 80px 20px;
+    height: auto;
+}
+.sobremi button {
+    display: block;
+    margin: 10px auto;
 }
 
 /* Educacion/Experiencia */
@@ -371,28 +379,10 @@ footer{
         font-size: 40px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .navbar a {
         margin: 0;
-    }
-    .sobremi {
-    padding: 80px 20px;
-    height: auto;
-    }
-    .sobremi button {
-    display: block;
-    margin: 10px auto;
-    }
-    .experiencia .columna {
-    margin-bottom: 20px;
-    }
-    .proyectos img,
-    .skills img {
-    width: 100%;
-    }
-}
-    .navbar-collapse{
-        display: none;
     }
     .sobremi {
         padding: 80px 20px;
@@ -400,12 +390,19 @@ footer{
     }
     .sobremi button {
         display: block;
-        margin: 10px auto; 
+        margin: 10px auto;
     }
-    
-@media screen and(min-width:700px) {
-    .hero-inferior-imagen{
-        max-width: 600px;
+    .experiencia .columna {
+        margin-bottom: 20px;
+    }
+    .proyectos img,
+    .skills img {
+        width: 100%;
+    }
+}
 
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
     }
 }
